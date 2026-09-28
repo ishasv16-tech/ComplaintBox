@@ -1,0 +1,1 @@
+package com.complaintbox.dto; public final class AuthDtos { private AuthDtos(){} public record Login(String email,String password,String role){} public record Register(String name,String email,String password,String confirmPassword,String studentId,String residentId,String roomNumber,String hostelBlock){} }

@@ -1,0 +1,8 @@
+1. Open this folder in IntelliJ as a Maven project.
+2. Open src/main/resources/application.properties and set spring.datasource.password to your MySQL password.
+3. Make sure MySQL is running.
+4. Run src/main/java/com/complaintbox/ComplaintBoxApplication.java.
+5. On first Maven build, Maven runs npm install + Vite build automatically. This may take a few minutes once.
+6. Spring Boot then serves the ORIGINAL HostelHub React/Vite frontend at http://localhost:8080 and opens the browser automatically.
+7. Demo warden: warden@hostel.com / warden123
+8. Demo maintenance: maintenance@hostel.com / staff123
